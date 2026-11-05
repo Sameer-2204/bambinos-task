@@ -1,0 +1,14 @@
+invoice_id,student_id,stage_reached,verdict,codes,hours_since_paid,sessions_scheduled,sessions_purchased
+84901,68101,4_scheduled,ALREADY_COMPLETE,SCHEDULE_COVERAGE(2/24 sessions booked),1.7,2.0,24.0
+84902,68102,3_booking_request,AUTO_APPROVE,,66.7,,
+84903,68103,2_form,AUTO_APPROVE,,47.9,,
+84904,68104,2_form,AUTO_APPROVE,PAYER_CONTACT_MISMATCH(mobile ...77 vs registered ...04);PAYER_CONTACT_MISMATCH(email);TEACHER_CONFIRMS_THIRD_PARTY_PAYER,45.5,,
+84905,68105,3_booking_request,AUTO_APPROVE,BATCH_FULL_FALSE_POSITIVE(student already holds a seat in batch 9205; 6/6 includes self),43.8,,
+84906,68106,1_invoice,EXCEPTION,ORPHANED_INVOICE,41.0,,
+84907,68107,2_form,EXCEPTION,UNAUTHORIZED_DISCOUNT,,,
+84908,68108,2_form,AUTO_APPROVE,"DUPLICATE_FORM(kept 3308, superseded 3309)",24.7,,
+84909,68109,2_form,EXCEPTION,PARTIAL_PAYMENT,,,
+84910,68110,1_invoice,EXCEPTION,ORPHANED_INVOICE,21.7,,
+84911,68111,1_invoice,EXCEPTION,PAYMENT_NOT_CONFIRMED,,,
+84912,68112,3_booking_request(no batch),EXCEPTION,BATCH_CHANGE_PENDING_PARENT,,,
+84913,68113,2_form,AUTO_APPROVE,ID_TYPO_AUTOCORRECTED(form 3313 said 84931 -> 84913; no such invoice; user/class/educator/amount all match),16.2,,

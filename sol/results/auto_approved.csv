@@ -1,0 +1,7 @@
+invoice_id,faculty_form_id,booking_request_id,user_id,student_id,class_id,classbatch_id,educator_id,sessions,days,start_time,booking_type,approval_path,notices,prior_status,hours_since_paid
+84902,3302,5502,41022,68102,205,9202,1108,24,"Mon,Wed",18:00:00,Regular_Renewal,UNBLOCKED_STUCK_REQUEST,,Pending_Batch_Allocation,66.7
+84903,3303,,41023,68103,301,9203,1115,24,"Wed,Fri",16:30:00,Regular_Renewal,AUTO_CLEAN,,Pending,47.9
+84904,3304,,41024,68104,104,9201,1102,24,"Tue,Thu",17:00:00,Regular_Renewal,AUTO_WITH_NOTICE,PAYER_CONTACT_MISMATCH(mobile ...77 vs registered ...04);PAYER_CONTACT_MISMATCH(email);TEACHER_CONFIRMS_THIRD_PARTY_PAYER,Pending,45.5
+84905,3305,5505,41025,68105,402,9205,1122,24,"Sat,Sun",11:00:00,Regular_Renewal,UNBLOCKED_STUCK_REQUEST,BATCH_FULL_FALSE_POSITIVE(student already holds a seat in batch 9205; 6/6 includes self),Failed_Batch_Full,43.8
+84908,3308,,41028,68108,302,9208,1115,24,"Sat,Sun",09:30:00,Regular_Renewal,AUTO_WITH_NOTICE,"DUPLICATE_FORM(kept 3308, superseded 3309)",Pending,24.7
+84913,3313,,41033,68113,501,9213,1130,24,"Tue,Thu",18:00:00,Regular_Renewal,AUTO_WITH_NOTICE,ID_TYPO_AUTOCORRECTED(form 3313 said 84931 -> 84913; no such invoice; user/class/educator/amount all match),Pending,16.2

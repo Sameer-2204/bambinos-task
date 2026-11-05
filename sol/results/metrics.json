@@ -1,0 +1,46 @@
+{
+  "as_of": "2026-11-04 09:00:00",
+  "invoices_total": 13,
+  "paid_or_part_paid": 12,
+  "raw_orphan_rate": "3/12 = 25% (ids [84906, 84910, 84913]; one is a typo'd id, two have no form at all)",
+  "form_filed_within_4h": "9/9",
+  "median_payment_to_form_h": 0.5,
+  "max_payment_to_form_h": 0.8,
+  "median_form_to_ops_approval_h": 1.5,
+  "paid_but_unscheduled": "11/12 = 92%",
+  "payment_to_schedule_h_completed_cases": [
+    1.7
+  ],
+  "paid_unscheduled_gt_12h": 11,
+  "paid_unscheduled_gt_48h": 1,
+  "hours_waiting_per_unscheduled_invoice": {
+    "84902": 66.7,
+    "84903": 47.9,
+    "84904": 45.5,
+    "84905": 43.8,
+    "84906": 41.0,
+    "84907": 38.2,
+    "84908": 24.7,
+    "84909": 23.0,
+    "84910": 21.7,
+    "84912": 17.3,
+    "84913": 16.2
+  },
+  "verdicts": {
+    "AUTO_APPROVE": 6,
+    "EXCEPTION": 6,
+    "ALREADY_COMPLETE": 1
+  },
+  "exception_reasons": {
+    "ORPHANED_INVOICE": 2,
+    "UNAUTHORIZED_DISCOUNT": 1,
+    "PARTIAL_PAYMENT": 1,
+    "PAYMENT_NOT_CONFIRMED": 1,
+    "BATCH_CHANGE_PENDING_PARENT": 1
+  },
+  "auto_paths": {
+    "AUTO_WITH_NOTICE": 3,
+    "UNBLOCKED_STUCK_REQUEST": 2,
+    "AUTO_CLEAN": 1
+  }
+}
